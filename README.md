@@ -101,5 +101,8 @@ OpenAI ChatGPT. Supports GPT4 by default!
 conversation script designed to help you learn to interact with OpenAI's GPT
 technology. Includes best practices and a free security whitepaper.
 
-https://github.com/maturimonika/180031260_section5/assets/58589073/602fb4a8-04d9-497f-aaa1-745a1d88a731
+
+
+
+https://github.com/maturimonika/-OnDemand-Professor-Q-A-Bot-/assets/58589073/5307b70d-5f08-4413-9bf0-9eab7dccad17
 
