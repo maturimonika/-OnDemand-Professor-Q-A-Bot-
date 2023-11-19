@@ -31,7 +31,7 @@ During the Wireshark installation process on Windows, you will likely see a box 
 8. langchain.chains.ConversationalRetrievalChain: This module includes the ConversationalRetrievalChain class, which is used for setting up a chain that combines the Replicate model and Pinecone vector database for conversational retrieval.
 
 ## System Architecture
-![Screenshot](systemarchi.jpeg)
+![Screenshot](systemarchitecture.jpeg)
 
 ## Flow Of Execution
 1. Loading and Preprocessing PDF Document
@@ -72,8 +72,8 @@ Solution - Used Valid Tokens which prevent it from authentication errors.
 
 ## Outputs
 
-![Screenshot](q1.png)
-![Screenshot](q2.jpeg)
+![Screenshot](output1.jpeg)
+![Screenshot](output2.jpeg)
 
 ## Conclusion
 
