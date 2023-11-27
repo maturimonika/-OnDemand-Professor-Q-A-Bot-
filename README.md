@@ -20,7 +20,7 @@ During the Wireshark installation process on Windows, you will likely see a box 
 
 3. langchain.llms.Replicate: This module seems to be a part of the "langchain" library and includes the Replicate class, which is likely responsible for handling the Replicate Llama2 Model for conversational AI.
 
-4. langchain.vectorstores.Pinecone: This module includes the Pinecone class, which is used for setting up and interacting with the Pinecone vector database.
+4. langchain.vectorstores.Chroma: This module includes the chroma class, which is used for setting up and interacting with the chroma vector database.
 
 5. langchain.text_splitter.RecurssiveCharacterTextSplitter: This module includes the RecurssiveCharacterTextSplitter class, which is used for splitting documents into smaller chunks for processing.
 
