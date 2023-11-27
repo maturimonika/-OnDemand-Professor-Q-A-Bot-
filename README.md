@@ -16,15 +16,15 @@ During the Wireshark installation process on Windows, you will likely see a box 
 ## Adopted Libraries
 1. sys: This is a module that provides access to some variables used or maintained by the Python interpreter, as well as functions that interact with the interpreter.
 
-2. pinecone: This library allows you to index and search for vectors efficiently. It appears to be used for creating a vector database for storing and retrieving vectorized representations of text.
+2. chroma: This library allows you to index and search for vectors efficiently. It appears to be used for creating a vector database for storing and retrieving vectorized representations of text.
 
 3. langchain.llms.Replicate: This module seems to be a part of the "langchain" library and includes the Replicate class, which is likely responsible for handling the Replicate Llama2 Model for conversational AI.
 
 4. langchain.vectorstores.Pinecone: This module includes the Pinecone class, which is used for setting up and interacting with the Pinecone vector database.
 
-5. langchain.text_splitter.CharacterTextSplitter: This module includes the CharacterTextSplitter class, which is used for splitting documents into smaller chunks for processing.
+5. langchain.text_splitter.RecurssiveCharacterTextSplitter: This module includes the RecurssiveCharacterTextSplitter class, which is used for splitting documents into smaller chunks for processing.
 
-6 .langchain.document_loaders.PyPDFLoader: This module includes the PyPDFLoader class, which is used for loading and preprocessing PDF documents.
+6 .langchain.document_loaders.PyPDFDirectoryLoader: This module includes the PyPDFDirectoryLoader class, which is used for loading and preprocessing PDF documents.
 
 7. langchain.embeddings.HuggingFaceEmbeddings: This module includes the HuggingFaceEmbeddings class, which is used for transforming text into numerical vectors using pre-trained embeddings from Hugging Face's Transformers library.
 
@@ -43,8 +43,8 @@ Describe the process of transforming text into numerical vectors using HuggingFa
 3. Setting up Pinecone Vector Database
 Detail the steps involved in setting up the Pinecone vector database, including creating an index and populating it with vectorized texts.
 
-4. Initializing Replicate Llama2 Model
-Explain how the Replicate Llama2 Model is initialized, including the specific model version and input parameters.
+4. Initializing Replicate GPT4all Model
+Explain how the Replicate GPT4all Model is initialized, including the specific model version and input parameters.
 
 5. Setting up Conversational Retrieval Chain
 Describe the configuration of the Conversational Retrieval Chain, combining the Replicate model with the Pinecone vector database for interactive retrieval.
